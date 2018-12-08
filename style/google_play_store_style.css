@@ -1,0 +1,60 @@
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body div.nav-main {
+    display: flex;
+    flex-direction: row;
+    background:#f1f1f1;
+    font: 13px/27px Arial,sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 13px;
+    line-height: 27px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    height: 60px;
+    width: 100%;
+}
+
+body div .logo {
+    width:240px;
+    height: 60px;
+    display:flex;
+    padding: 0 30px 0 30px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0;
+    margin-right:0;
+}
+
+body div div img {
+    width: 183px;
+    height: 39px;
+    justify-content: center;
+    align-items: center;
+}
+
+body div .searching-area {
+    width: 650px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0;
+    margin-right:0;
+}
+
+body div div input {
+    padding: 0 30px 0 30px;
+    justify-content: center;
+    align-items: center;
+
+}
